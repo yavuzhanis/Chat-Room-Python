@@ -1,2 +1,3 @@
 # Chat-Room-Python
- Python FLASK fulll stack project
+FLASK fulll stack project
+Flask Projemde ChatRoom Application Uygulamasını yapmış Bulunmaktayım.
