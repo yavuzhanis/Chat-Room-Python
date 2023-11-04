@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Serif', serif !important;
+}
+
+body{
+    background-color: darkgrey;
+    
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.join {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.create-btn {
+    width: 100%;
+}
+
+.message-box {
+    border-color: brown;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: forestgreen;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    align-items: stretch;
+    margin-top: 70px;
+
+}
+
+.messages {
+    overflow-y: scroll;
+    height: 100%;
+    flex: 1;
+    width: 100%;
+}
+
+.inputs {
+    margin-top: 45%;
+    padding: 10px;
+    display: flex;
+
+}
+
+h2 {
+    text-align: center;
+    
+}
+
+#message {
+    flex: 1;
+    background-color: black ;
+    color: whitesmoke; 
+}
+.text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.muted{
+    font-size: 10px;
+    color: whitesmoke;
+}
